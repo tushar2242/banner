@@ -1,2 +1,2 @@
 # banner
-This is banner page for websites use your pictures for better one 
+This is banner Component for websites use your pictures for better one 
