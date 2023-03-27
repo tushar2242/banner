@@ -1,0 +1,241 @@
+/* banner css start header */
+
+.banner-bg,
+.banner-bg-1 {
+    width: 100%;
+    height: 480px;
+
+    background: url('../images/banner/1.png') no-repeat;
+    background-size: cover;
+}
+
+.banner-bg-1 {
+    background: url('../images/banner/6.jpg') no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+
+    height: 430px;
+
+    position: relative;
+}
+
+.banner-txt-1 {
+    position: absolute;
+
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.banner-txt-1 h1 {
+
+    width: fit-content;
+
+    font-size: 3em;
+
+    margin-bottom: 20px;
+}
+
+.banner-txt {
+    position: relative;
+    left: 15%;
+    top: 10%;
+
+    width: fit-content;
+
+    text-align: center;
+}
+
+.banner-txt h1 {
+    display: inline-block;
+
+    color: #ff4848;
+
+    font-size: 3.3rem;
+}
+
+.banner-txt {
+    color: #614385;
+}
+
+.banner-bg span {
+    font-size: 1.7rem;
+}
+
+/* General styling for the links */
+
+
+/* BUTTON 1 */
+
+.bannerBtn,
+.bannerBtn:link,
+.bannerBtn:visited {
+
+    color: #ff4848;
+
+    text-align: center;
+    line-height: 1em;
+    text-decoration: none;
+
+    display: inline-block;
+
+    border: 0.2em solid #ff4848;
+    border-radius: 4px;
+
+    background-color: #ff4848;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0 #ff4848 inset, 0.3em 0.2em 0 0 #bbb;
+
+    padding: 0.8em;
+
+    transition: 0.25s box-shadow, 0.25s transform;
+}
+
+.bannerBtn:hover {
+    box-shadow: 0 4em 0 0 #ff4848 inset, 0em 0em 0 0 #bbb;
+    transform: translate(0.3em, 0.2em);
+    color: #fff;
+}
+
+
+
+
+/* Search input box css start here */
+
+/* variables */
+:root {
+    --background: #614385;
+    --text: #9c9c9c;
+    --input-bg-color: #fff;
+    --input-text-color: #a3a3a3;
+    --button-bg-color: #ff4848;
+    --button-text-color: #fff;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: var(--button-bg-color);
+}
+
+/* helper */
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background: var(--button-bg-color);
+    color: var(--button-text-color);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+
+    padding: 12px 36px;
+}
+
+.btn--primary:hover {
+    background-color: #614385;
+    color: white;
+}
+
+.btn--primary:active {
+    background: var(--button-bg-color);
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+
+.btn--inside {
+    margin-left: -75px;
+    margin-top: -5px;
+}
+
+/* form */
+.form__field {
+    width: 240px;
+    background: #fff;
+    color: #614385;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+
+    font-size: 1.2rem;
+
+    border: 0.2em solid #ff4848;
+    border-radius: 4px;
+
+    /* padding-bottom: 5px; */
+}
+
+
+
+@media only screen and (max-width:900px) {
+    .banner-txt {
+        left: 5%;
+        top: 5%;
+    }
+
+
+}
+
+@media only screen and (max-width:600px) {
+    .banner-bg {
+        height: 350px;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .banner-txt h2 {
+        font-size: 1rem;
+    }
+
+    .bannerBtn,
+    .bannerBtn:link,
+    .bannerBtn:visited {
+        margin-top: 10px;
+        padding: 0.6em;
+
+
+    }
+}
+
+
+/* tag style start here */
+
+
+.stackInfo {
+    margin-top: 10px;
+}
+
+.css-l3ln04-MuiAutocomplete-root .MuiFilledInput-root {
+    padding-bottom: 10px;
+}
+
+.css-1hfcwwv-MuiStack-root {
+    width: 100% !important;
+}
